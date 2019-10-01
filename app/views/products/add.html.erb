@@ -1,7 +1,7 @@
-<%= form_tag posts_path do %>
-  
-  <%= text_field_tag :'product' %><br>
- 
+<%= form_tag ({controller: 'products',
+    action: 'add',
+    method: 'post'}) do %>
 
-  <%= submit_tag "Add" %>
+  <input name=product>
+  <input type=submit value='add to cart'>
 <% end %>
