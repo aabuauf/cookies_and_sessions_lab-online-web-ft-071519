@@ -9,5 +9,12 @@ class ApplicationController < ActionController::Base
     session[:cart] ||= []
   end
   
+  def index
+    
+  end
+  
+  def add
+    
+  end
 
 end
