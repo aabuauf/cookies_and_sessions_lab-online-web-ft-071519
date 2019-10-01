@@ -9,12 +9,5 @@ class ApplicationController < ActionController::Base
     session[:cart] ||= []
   end
   
-  def cart
-  # Get the item from the path
 
-  current_cart =[]
- 
-  # Save the cart in the session.
-  session[:cart] = cart
-  end
 end
